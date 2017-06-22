@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Harris & Pierce</title>
+    <link rel="stylesheet" href="public_harrispierce/styles2.css">
+</head>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+    
+    <body> <!--background = '/Users/benoitkoenig/Desktop/Java/news_agg/images/bp.png'-->
+        
+        <div id="up">
+            <img id = "logo" src="public_harrispierce/logo.png" onclick="window.location.href='index.html'"/>
+    
+            <div id="moto" onclick="window.location.href='index.html'">Harris <br>&<br> Pierce</div>
+            
+            <button id = "login" onclick="window.location.href='public_harrispierce/login/login.php'">Login</button>
+            <button id = "newUser" onclick="window.location.href='public_harrispierce/newUser/newUser.html'">New User</button>
+
+                <form id='searchForm'> <!--ACTION-->
+                    <input id = "searchBar" type="text" onclick="myFunction()" placeholder="Brexit, Trump, Syria..." required>
+                    <input id = "searchButton" type="button" value="Search" onclick="myFunction()">
+                </form>  
+            
+        </div>
+        <br>
+        <div class="popup" onclick="myFunction()">
+                <span class="popuptext" id="myPopup">Login to use that functionality (and many more).</span>
+        </div>
+        <h1 id = 'header1'>Login to take advantage of all functionalities: have a look at our presentation video to fully understand what you can do! <em>LINK</em></h1>
+        
+        
+        <form id='selection' action='display_selection.php' method="post">
+        <!--<form id='selection' action='scraptest.php' method="post">TEST EN DSSOUS-->
+            <!--<input id = 'submitButton' type='submit' value = "Let's go!"> DEJA DANS iniNA.js-->
+        </form> 
+        
+        <script src="public_harrispierce/objects.js"></script>
+
+        <script src="public_harrispierce/iniNA.js"></script>
+        
+        <br>
+        
+    <body>
+        
+        
+<footer>
+
+    <em>Harris & Pierce</em><br>
+    Your favorite Newspaper is missing?<br>
+    E-mail: <a href = 'mailto: contact@harrispierce.com'>contact@harrispierce.com</a><br>
+    URL: <a href = 'http://www.harrispierce.com'>http://www.harrispierce.com</a><br>
+    All Rights Reserved © 2016 | <a href="">Privacy Policy</a> | <a href="">Terms of Service</a><br>
+    2017 Ed Tittel, Benoit Koenig.<br>
+    
+
+    
+</footer>
+        
+
+
+
+        
+        
