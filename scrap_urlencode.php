@@ -10,7 +10,7 @@ function scrapping($journal, $section, $url){
     $teasers = array();
     $images = array();
     
-    if ($journal === 'Wall Street Journal'){ //IMAGES #######################################
+    if ($journal === 'Wall Street Journal'){ //IMAGES
         if ($url === 'https://www.wsj.com/news/world'
             || $url === 'https://www.wsj.com/news/business'
             || $url === 'https://www.wsj.com/news/opinion'
@@ -109,7 +109,7 @@ function scrapping($journal, $section, $url){
         
         
 
-    } else if ($journal === 'New York Times'){ //IMAGES#################################
+    } else if ($journal === 'New York Times'){ //IMAGES
         
             echo 'NYT';
         if ($url === 'https://www.nytimes.com/section/technology'
@@ -374,11 +374,11 @@ mysqli_connect_error());
     
     if(mysqli_connect_errno())
     {
-    echo '<p>La connexion au serveur MySQL a échoué: '.mysqli_connect_error().'</p>';
+    echo '<p>La connexion au serveur MySQL a ??chou??: '.mysqli_connect_error().'</p>';
     }
     else
     {
-    echo '<p>Connexion au serveur MySQL établie avec succès.</p>';
+    echo '<p>Connexion au serveur MySQL ??tablie avec succ??s.</p>';
     }
 
 //mysqli_set_charset('utf8', $dbc);

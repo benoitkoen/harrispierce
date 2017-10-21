@@ -12,7 +12,7 @@ function scrapping($journal, $section, $url){
 
     echo 'on entre'.$journal."<br>";
     
-    if ($journal === 'Wall Street Journal'){ //IMAGES #######################################
+    if ($journal === 'Wall Street Journal'){
         if ($url === 'https://www.wsj.com/news/world'
             || $url === 'https://www.wsj.com/news/business'
             || $url === 'https://www.wsj.com/news/opinion'
@@ -378,11 +378,11 @@ mysqli_connect_error());
     
     if(mysqli_connect_errno())
     {
-    echo '<p>La connexion au serveur MySQL a échoué: '.mysqli_connect_error().'</p>';
+    echo '<p>La connexion au serveur MySQL a ??chou??: '.mysqli_connect_error().'</p>';
     }
     else
     {
-    echo '<p>Connexion au serveur MySQL établie avec succès.</p>';
+    echo '<p>Connexion au serveur MySQL ??tablie avec succ??s.</p>';
     }
 
 //mysqli_set_charset('utf8', $dbc);
